@@ -47,3 +47,7 @@ function textBack(){
 }
 
 
+function fun(){
+ gsap.to(".alert", {opacity: 0,y:"300%", duration: 1});
+ 
+}
